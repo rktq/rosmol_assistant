@@ -88,8 +88,7 @@ commands = {
     "faq": ["проблема", "проблемы", "технические", "техническая", "вопрос", "вопросы", "вопросов", "вопросах"],
     "agreement": ["да", "ага", "конечно"],
     "disagreement": ["нет", "неа"],
-    "help": ["помощь"],
-    "test": ["тест"]
+    "help": ["помощь"]
 }
 
 
@@ -162,9 +161,6 @@ if __name__ == "__main__":
                         print("support@myrosmol.ru")
                         break
 
-                    elif key == "test":
-                        play_voice_assistant_speech("тестетсттест")
-                        break
                         
                 
 
